@@ -17,7 +17,7 @@ The attacker creates a subreddit (preferably a private one), this subreddit will
 * The attacker parses the comment by verifying that the comment ID does not exists in the list with parsed comment ID's
 * Result gets displayed on the terminal of the attacker
 
-After issuing the "exit" command by the attacker, the victim will delete all the comments in the Reddit post.
+After issuing the "exit" command by the attacker, the victim will delete all the comments in the subreddit's post.
 
 ## Requirements
 * [Python](https://www.python.org/downloads/)
