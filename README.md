@@ -44,7 +44,7 @@ After issuing the "exit" command by the attacker, the victim will delete all the
 * **description:** Optional
 * **sidebar:** Optional
 * **Posttext:** Optional
-* **language:** [ko]
+* **language:** Optional
 * **type:** this can be anything you want, if you want to go for stealth I suggest setting this to "private"
 * **content options:** Optional
 * **wiki:** Optional
