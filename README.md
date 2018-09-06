@@ -4,7 +4,7 @@ A Python based Reddit CnC
 ## Why Reddit?
 I wanted to create a Python based shell that would be very hard to differentiate from legitimate traffic. The first project I made was a Python HTTPS shell that would generate noise to reddit.com but this would still need a self-signed certificate which would cause IDS to trigger on the invalid certificate associated with the displayed domain (reddit.com). After brainstorming for a while and letting colleagues of mine analyze the PCAP, I remembered the Turla CnC which made use of Instagram comments, found the [PRAW](https://praw.readthedocs.io/en/latest/) library and [a Reddit comment bot](https://github.com/yashar1/reddit-comment-bot). The result of all these inspirations is shown in the scripts.
 
-I hope that this tool will prove useful in pentesting, red-teaming, CTF, etc.
+I hope that this tool will prove useful in pentesting, red team, CTF, etc.
 
 ## How it works
 The attacker creates a subreddit (preferably a private one), this subreddit will serve as the place for the attacker to execute the commands and the victim to post the output of the executed command. This can be summarized as follows:
